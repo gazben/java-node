@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk
 
 RUN apt-get install -y curl
   && curl -sL https://deb.nodesource.com/setup_8.x | bash -
